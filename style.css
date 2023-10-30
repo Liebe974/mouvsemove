@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.circle.c1{
+  position: absolute;
+  cursor:none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #800080;
+  transform: translate(-50%, -50%);
+}
+
+.circle.c2 {
+    position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background: #ff0000;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: lighten;
+}
+
+.circle.c3 {
+    position: absolute;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background: #a9a9a9;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hard-light;
+}
